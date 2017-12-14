@@ -20,7 +20,7 @@ def monopoly_with_second_tier
 			rent_in_dollars:{},
 		}
 	}
-	puts "#{monopoly.values[0].values[0]}"
+	return monopoly
 end
 
 def monopoly_with_third_tier
